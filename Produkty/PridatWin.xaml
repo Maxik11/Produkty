@@ -1,0 +1,24 @@
+﻿<Window x:Class="Produkty.PridatWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Produkty"
+        mc:Ignorable="d"
+        Title="PridatWin" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="Název Produktu" HorizontalAlignment="Left" Margin="95,68,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Nazev" HorizontalAlignment="Left" Margin="190,72,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <Label Content="Cena Produktu:" HorizontalAlignment="Left" Margin="95,121,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Cena" HorizontalAlignment="Left" Margin="190,125,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+
+        <TextBox x:Name="Pocet" HorizontalAlignment="Left" Margin="190,181,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Label Content="Počet:" HorizontalAlignment="Left" Margin="95,174,0,0" VerticalAlignment="Top"/>
+
+        <Button Content="Uložit" HorizontalAlignment="Left" Margin="65,346,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click_1"/>
+        <Button Content="Zahodit" HorizontalAlignment="Left" Margin="260,346,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+
+    </Grid>
+</Window>
